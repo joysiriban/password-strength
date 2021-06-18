@@ -1,0 +1,11 @@
+<div class="info">
+    <h3 class="info-guessTime" *ngIf="info.guessTimeString">
+        it will take {{ info.guessTimeString }} to guess your password.
+    </h3>
+    <div class="info" *ngIf="info.warning">
+        {{ info.warning }}
+    </div>
+    <div class="info-suggestions" *ngFor="let suggest of info.suggestions;">
+        {{ suggest }}
+    </div>
+</div>

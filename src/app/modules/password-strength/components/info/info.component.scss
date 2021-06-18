@@ -1,0 +1,14 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 12px;
+
+    &-guessTime {
+        margin-top: 12px;
+    }
+
+    &-suggestions {
+        font-weight: bold;
+    }
+}
